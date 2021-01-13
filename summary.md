@@ -2,7 +2,7 @@
 
 **Date:** 2021-01-13
 
-**Title:** Initial Commit
+**Title:** Isolate Random Files
 
 **Description:**
-'rsi-misc' initial commit.
+Added 'Isolate Random Files' script.
