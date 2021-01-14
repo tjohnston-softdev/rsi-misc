@@ -1,8 +1,8 @@
 # Summary
 
-**Date:** 2021-01-13
+**Date:** 2021-01-14
 
-**Title:** Isolate Random Files
+**Title:** Transpose Sheet
 
 **Description:**
-Added 'Isolate Random Files' script.
+Added 'Transpose Sheet' script. Used to flip contents of a spreadsheet.

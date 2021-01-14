@@ -56,7 +56,6 @@ function runFileIsolation()
   {
     // Copies marked files to output folder.
     copyChosenFilesLoop(chosenFileList, outputFolderObject);
-    console.log("Random File Isolation Successful");
   }
 
 }

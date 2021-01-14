@@ -1,5 +1,4 @@
 # Changelog
 
-* Added 'isolate-random-files' script.
-* Removed placeholder table from 'readme.md'.
-* Reworded the license disclaimer in 'readme.md'.
+* Added 'transpose-sheet' script.
+* Removed successful log message from `./isolate-random-files/code.js`. It is redundant and appears to slow execution time.
