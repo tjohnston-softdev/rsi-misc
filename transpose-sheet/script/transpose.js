@@ -1,8 +1,9 @@
 // Reads horizontal column input from spreadsheet and transposes it into vertical row output.
 
 
-// Global variable.
-var clearExistingOutput = true;
+// Global variables
+var clearExistingOutput = false;
+var clearCompletedInput = true;
 
 
 // Main function
@@ -20,6 +21,7 @@ function executeTranspose()
   var inputEntry = [];
   var transposedData = {header: null, contents: null};
   var transposeSuccessful = false;
+  var writeSuccessful = false;
 
   
   // Opens spreadsheet file.
@@ -61,6 +63,14 @@ function executeTranspose()
 	// Write transposed input data to output sheet.
     writeOutputHeader(outputSheetObject, transposedData.header);
     writeOutputContents(outputSheetObject, transposedData.contents);
+    writeSuccessful = true;
+  }
+
+
+  // Remove input data if required.
+  if (writeSuccessful === true && clearCompletedInput === true)
+  {
+    eraseInputData(inputSheetObject, inputRowCount, inputColCount);
   }
 
   
@@ -190,4 +200,14 @@ function writeOutputContents(outputSheetObj, contentsObj)
     outputRange.setValues(contentsObj);
   }
 
+}
+
+
+
+// Clears data columns for Input sheet.
+function eraseInputData(inputSheetObj, rCount, cCount)
+{
+  var dataColumns = cCount - 1;
+  var dataRange = inputSheetObj.getRange(1, 2, rCount, dataColumns);
+  dataRange.clear();
 }

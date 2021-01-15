@@ -1,7 +1,8 @@
 /*
 	Formats input and output sheets:
-		* Headers will be bolded and centered.
+		* Headers will be bolded and centered with no other formatting.
 		* Contents will have all formatting removed.
+		* Column widths will be automatically adjusted.
 */
 
 
@@ -15,6 +16,10 @@ function executeFormat()
 
   formatInputSheet(inputSheetObject);
   formatOutputSheet(outputSheetObject);
+  boldInputHeader(inputSheetObject);
+
+  setColumnWidths(inputSheetObject);
+  setColumnWidths(outputSheetObject);
 }
 
 
@@ -26,7 +31,6 @@ function formatInputSheet(sheetObj)
   var colCount = -1;
   var formatStatus = null;
   var headerRange = null;
-  var headerWeights = [];
   var contentRange = null;
   
   
@@ -40,12 +44,10 @@ function formatInputSheet(sheetObj)
   if (formatStatus.header === true)
   {
     headerRange = sheetObj.getRange(1, 1, rowCount, 1);
-    headerWeights = getInputHeaderWeights(rowCount);
 
     headerRange.clearFormat();
     headerRange.setHorizontalAlignment("center");
     headerRange.setVerticalAlignment("middle");
-    headerRange.setFontWeights(headerWeights);
   }
 
   
@@ -94,6 +96,48 @@ function formatOutputSheet(sheetObj)
 }
 
 
+// Bolds first column for Input sheet. Done in separate function due to bug.
+function boldInputHeader(sheetObj)
+{
+  var rowCount = -1;
+  var colCount = -1;
+  var boldRange = null;
+
+  // Reads sheet dimensions.
+  rowCount = sheetObj.getLastRow();
+  colCount = sheetObj.getLastColumn();
+
+  // If Input sheet not empty, bold header column.
+  if (colCount > 0 && rowCount > 0)
+  {
+    boldRange = sheetObj.getRange(1, 1, rowCount, 1);
+    boldRange.setFontWeight("bold");
+  }
+}
+
+
+// Adjusts column widths to fit sheet contents.
+function setColumnWidths(sheetObj)
+{
+  var colCount = sheetObj.getLastColumn();
+
+  var loopNumber = 1;
+  var currentAutoSize = -1;
+  var currentFinalSize = -1;
+
+  for (loopNumber = 1; loopNumber <= colCount; loopNumber = loopNumber + 1)
+  {
+    // Sets width automatically as base amount.
+	sheetObj.autoResizeColumn(loopNumber);
+    currentAutoSize = sheetObj.getColumnWidth(loopNumber);
+    
+	// Set final amount.
+	currentFinalSize = currentAutoSize + 25;
+    sheetObj.setColumnWidth(loopNumber, currentFinalSize);
+  }
+}
+
+
 // Checks sheet dimensions to determine what formatting tasks should be performed.
 function getFormatStatus(dimensionNumber)
 {
@@ -119,26 +163,4 @@ function getFormatStatus(dimensionNumber)
   }
 
   return statusRes;
-}
-
-
-
-/*
-	Prepares header weights for input sheet.
-	For some reason, bolding them all at once causes a bug so using an MD array avoids this.
-*/
-
-function getInputHeaderWeights(rCount)
-{
-  var rowIndex = 0;
-  var currentWeight = [];
-  var weightRes = [];
-
-  for (rowIndex = 0; rowIndex < rCount; rowIndex = rowIndex + 1)
-  {
-    currentWeight = ['bold'];
-    weightRes.push(currentWeight);
-  }
-
-  return weightRes;
 }
