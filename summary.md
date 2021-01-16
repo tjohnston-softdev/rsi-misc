@@ -1,11 +1,12 @@
 # Summary
 
-**Date:** 2021-01-15
+**Date:** 2021-01-16
 
-**Title:** Clean Spreadsheet
+**Title:** Checkpoint Resume
 
 **Description:**
 
-* Added 'clean-spreadsheet' script.
-	* Used to remove empty rows from sheet and reduce total cell count.
+* Added 'checkpoint-resume' script.
+	* Demonstrates how to save and load progress.
+	* Useful when executing scripts that may exceed the [time limit](https://developers.google.com/apps-script/guides/services/quotas#current_limitations)
 

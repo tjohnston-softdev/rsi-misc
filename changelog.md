@@ -1,4 +1,4 @@
 # Changelog
 ---
 
-* Added 'clean-spreadsheet' script.
+* Added 'checkpoint-resume' script.
