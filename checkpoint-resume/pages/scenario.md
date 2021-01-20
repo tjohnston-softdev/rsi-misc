@@ -6,11 +6,26 @@ The script I wrote opens a chosen spreadsheet file and then paints all of the ce
 
 The chosen spreadsheet file uses two sheets:
 * 'Data' contains the cells to be coloured. The actual content does not matter. Only the formatting is affected. 
-* Checkpoint' stores information that is saved and loaded between executions.
+* 'Checkpoint' stores information that is saved and loaded between executions.
 
 ---
 
-##### Checkpoint Data
+#### Getting Started
+1. Paste 'code.js' into a stand-alone script file. The instructions for doing so are [here](../../install.md#script)
+2. Then, create or open a Google Sheets file. No script will be attached to the spreadsheet. Everything is done through 'code.js'
+3. Within the spreadsheet, create two sheets 'Data' and 'Checkpoint'.
+4. Insert some data into the 'Data' sheet. It does not matter how much but there should be a decent amount of cells.
+5. Leave 'Checkpoint' empty. It is handled by the script.
+6. Find the Sheet file ID. For instructions on how to do this, click [here](https://developers.google.com/sheets/api/guides/concepts#spreadsheet_id)
+7. Open the stand-alone script file from step #1 and paste the ID into the 'sheetFileID' setting.
+8. Adjust any other program settings as necessary.
+9. To run the script, execute the function `runCheckpointSupport`
+10. After the script is finished, go back to Google Sheets and view the 'Checkpoint' sheet
+11. Keep executing the stand-alone script until the 'Complete' field in 'Checkpoint' says "TRUE"
+
+---
+
+#### Checkpoint Data
 
 | Field         | Description                                                  | Example                       | Required |
 |---------------|--------------------------------------------------------------|-------------------------------|----------|
@@ -24,7 +39,7 @@ Only the row and column numbers are used in runtime. The other fields are only t
 
 ---
 
-##### Program Settings
+#### Program Settings
 
 | Program Setting       | Type     | Description                                                                                       | Example                          											|
 |-----------------------|----------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|

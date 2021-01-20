@@ -1,12 +1,11 @@
 # Summary
 
-**Date:** 2021-01-16
+**Date:** 2021-01-20
 
-**Title:** Checkpoint Resume
+**Title:** Install documentation
 
 **Description:**
 
-* Added 'checkpoint-resume' script.
-	* Demonstrates how to save and load progress.
-	* Useful when executing scripts that may exceed the [time limit](https://developers.google.com/apps-script/guides/services/quotas#current_limitations)
-
+* Added script index table.
+* Wrote generic install instructions for different script types.
+* Wrote specific install instructions for each script where applicable.
