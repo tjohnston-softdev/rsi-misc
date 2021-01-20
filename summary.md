@@ -2,10 +2,9 @@
 
 **Date:** 2021-01-20
 
-**Title:** Install documentation
+**Title:** Send Mail
 
 **Description:**
 
-* Added script index table.
-* Wrote generic install instructions for different script types.
-* Wrote specific install instructions for each script where applicable.
+* Added 'send-mail' script.
+	* Demo script for sending E-Mails.

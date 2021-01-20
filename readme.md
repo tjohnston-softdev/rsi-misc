@@ -7,6 +7,7 @@ These code files are based on scripts I wrote to perform minor tasks while admin
 | [transpose-sheet](./transpose-sheet/index.md)           | Sheet  | 2021-01-14 | 2021-01-15 |
 | [clean-spreadsheet](./clean-spreadsheet/index.md)       | Script | 2021-01-15 | 2021-01-15 |
 | [checkpoint-resume](./checkpoint-resume/index.md)       | Script | 2021-01-16 | 2021-01-16 |
+| [send-mail](./send-mail/index.md)                       | Script | 2021-01-20 | 2021-01-20 |
 
 
 The contents of this project are licensed under the [MIT](https://opensource.org/licenses/MIT) license.
