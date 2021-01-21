@@ -5,7 +5,7 @@ This is a demo script that can send a prepared E-Mail message to multiple addres
 ---
 
 ### Background
-When I was working at Response, I was in charge of several different system components that automatically sent out E-Mails to different staff members. This could be when submitting a form, or when certain actions in a spreadsheet are performed. Since there are no easy or conventional ways to share scripts between different projects, I eventually had as many different copies of the code responsible for sending E-Mails. This is not inherently bad as it is mostly a [call to a service](). In all fairness, the code for writing the E-Mail itself was always different and tailored to the output. However, looking back on it now, I wanted to write a script that demonstrates sending an E-Mail for future reference.
+When I was working at Response, I was in charge of several different system components that automatically sent out E-Mails to different staff members. This could be when submitting a form, or when certain actions in a spreadsheet are performed. Since there are no easy or conventional ways to share scripts between different projects, I eventually had as many different copies of the code responsible for sending E-Mails. This is not inherently bad as it is mostly a [call to a service](https://developers.google.com/apps-script/reference/gmail/gmail-app#sendemailrecipient,-subject,-body,-options). In all fairness, the code for writing the E-Mail itself was always different and tailored to the output. However, looking back on it now, I wanted to write a script that demonstrates sending an E-Mail for future reference.
 
 ---
 

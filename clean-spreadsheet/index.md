@@ -1,7 +1,9 @@
 ## Clean Spreadsheet
 This script is used to clean empty rows from a chosen spreadsheet. This is to reduce the likelihood of a large spreadsheet with frequent use reaching the [total cell limit](https://support.google.com/docs/thread/6339567?hl=en), which is ~5 million as of May 2019.
 
-Read the [background](./background.md) for additional context as to why I wrote this script and how it works. See [here](../install.md#script) for instructions on installing.
+Read the [background](./background.md) for additional context as to why I wrote this script and how it works.
+
+See [here](../install.md#script) for instructions on installing.
 
 | Program Setting   | Type    | Description                                                                                    | Example                          |
 |-------------------|---------|------------------------------------------------------------------------------------------------|----------------------------------|

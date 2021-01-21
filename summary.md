@@ -1,10 +1,9 @@
 # Summary
 
-**Date:** 2021-01-20
+**Date:** 2021-01-21
 
-**Title:** Send Mail
+**Title:** Formatting 20210121
 
 **Description:**
 
-* Added 'send-mail' script.
-	* Demo script for sending E-Mails.
+See changelog.md
