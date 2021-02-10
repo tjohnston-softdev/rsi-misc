@@ -1,4 +1,4 @@
 # Changelog
 ---
 
-* Migrated from GitLab to GitHub.
+* Added new script 'doc-to-pdf'

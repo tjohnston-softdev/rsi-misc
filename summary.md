@@ -1,9 +1,11 @@
 # Summary
 
-**Date:** 2021-01-30
+**Date:** 2021-02-10
 
-**Title:** GitHub Migration.
+**Title:** Doc to PDF
 
 **Description:**
 
-Migrated from GitLab to GitHub.
+Added new script 'doc-to-pdf'.
+
+Converts existing Google Docs file into a PDF.
