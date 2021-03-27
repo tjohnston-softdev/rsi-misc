@@ -1,11 +1,10 @@
 # Summary
 
-**Date:** 2021-02-10
+**Date:** 2021-03-27
 
-**Title:** Doc to PDF
+**Title:** GitHub Readme
 
 **Description:**
 
-Added new script 'doc-to-pdf'.
-
-Converts existing Google Docs file into a PDF.
+Renamed project index page files to 'readme.md'
+so they are correctly interpreted by GitHub.

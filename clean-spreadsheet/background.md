@@ -7,3 +7,7 @@ I always assumed that Google Sheets did have hard limits of some kind but I neve
 To work around this error, I wrote a script that marks empty rows in the running sheet and moves them to the end of the sheet where they will not count against the cell limit. Furthermore, I set the script to run automatically at the first of every month during the night. This allows the sheet to function normally leaving empty rows in its wake. However, with regular cleaning, it significantly reduces the cell bloat left behind.
 
 To give an example, imagine a sheet with 500 rows and 7 columns (3500 cells total). Rows 1 is a header. Rows 2-101 have data as normal, 102-499 are empty, and row 500 has data. Because of that one filled row at the end, the total cell amount includes all of the empty rows above. After cleaning the sheet, there are only 102 rows with a total cell count of 714. This amounts to the removal of 2786 cells and a 79.6% overall reduction.
+
+---
+
+[Return to Index](./readme.md)
