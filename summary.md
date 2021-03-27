@@ -2,9 +2,10 @@
 
 **Date:** 2021-03-27
 
-**Title:** GitHub Readme
+**Title:** Home Page Links
 
 **Description:**
 
-Renamed project index page files to 'readme.md'
-so they are correctly interpreted by GitHub.
+* Fixed table links to projects.
+* Simplified license description.
+* Added link back to home page for project readme files.

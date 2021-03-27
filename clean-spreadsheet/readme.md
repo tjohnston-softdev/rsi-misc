@@ -12,3 +12,6 @@ See [here](../install.md#script) for instructions on installing.
 | ignoreHeader      | Boolean | If this is true, the first row of the sheet will be ignored as if it is a header.              | true                             |
 | displayCellCounts | Boolean | If this is true, the before and after cell counts will be displayed when cleaning is finished. | true                             |
 
+---
+
+[Return to Home Page](../readme.md)

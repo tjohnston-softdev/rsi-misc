@@ -1,15 +1,10 @@
 # Changelog
 
-**./%subfolder%/index.md**
-* Renamed to 'readme.md'
-	* Github will interpret this as the index file.
+**readme.md**
+* Fixed table links to projects.
+* Simplified license description.
 
 ---
 
-**./checkpoint-resume/pages/*.md**
-* Updated links to parent index.
-
----
-
-**./clean-spreadsheet/background.md**
-* Added link to readme file.
+**./%subfolder%/readme.md**
+* Added link back to home page (../readme.md)

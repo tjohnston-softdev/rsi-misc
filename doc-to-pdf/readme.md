@@ -33,3 +33,7 @@ After the script file has been saved, choose the `executeDocumentToPDF` function
 | outputFolderID  | string | The ID of the folder where the output PDF will be located. If it is invalid or missing, the file will be placed in the drive root by default. | 51a9PDMC5LCQIXmcLBZ6qAFtdImPrHID |
 
 Refer to the following [page](https://docs.meiro.io/books/meiro-integrations/page/where-can-i-find-the-file-id-on-google-drive) for retrieving file and folder IDs.
+
+---
+
+[Return to Home Page](../readme.md)

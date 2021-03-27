@@ -29,3 +29,7 @@ After the script file has been saved, choose the `runSendMail` function in order
 Unlike other scripts, these settings have proper validation and incorrect data may result in an error.
 
 Refer to this [page](https://developers.google.com/apps-script/reference/gmail/gmail-app#sendemailrecipient,-subject,-body,-options) for the GMail service call.
+
+---
+
+[Return to Home Page](../readme.md)

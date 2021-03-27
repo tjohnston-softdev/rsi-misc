@@ -35,3 +35,7 @@ To install this script, refer to these [instructions](../install.md#sheet).
 | clearCompletedInput | Boolean | If this is true, input data will be cleared upon successful transpose.                     | true    |
 
 These only apply for the 'Transpose' action. The 'Clear' and 'Format' actions do not have any settings of their own.
+
+---
+
+[Return to Home Page](../readme.md)

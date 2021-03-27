@@ -29,3 +29,6 @@ After the script file has been saved, choose the `runFileIsolation` function in 
 | clearOutputFolder    | Boolean  | If this is true, any preexisting files in the output folder will be deleted.                                                                            | true                           									|
 | allowIncorrectAmount | Boolean  | If the final amount of chosen files is less than the calculated target, copy them anyway. Otherwise, there will be an error.                            | false                          									|
 
+---
+
+[Return to Home Page](../readme.md)
