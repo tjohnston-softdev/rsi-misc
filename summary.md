@@ -1,11 +1,9 @@
 # Summary
 
-**Date:** 2021-03-27
+**Date:** 2021-03-28
 
-**Title:** Home Page Links
+**Title:** Revised Install formatting
 
 **Description:**
 
-* Fixed table links to projects.
-* Simplified license description.
-* Added link back to home page for project readme files.
+Revised formatting for 'install.md'
