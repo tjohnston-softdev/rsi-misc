@@ -13,4 +13,4 @@ These code files have been inspired by scripts that I wrote to perform minor tas
 
 
 \
-The contents of this project are licensed under [MIT](https://opensource.org/licenses/MIT). In other words, you are allowed to do whatever you want with these files as long as the license and attribution remain intact.
+The contents of this repository are licensed under [MIT](https://opensource.org/licenses/MIT). In other words, you are allowed to do whatever you want with these files as long as the license and attribution remain intact.
