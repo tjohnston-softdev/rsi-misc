@@ -6,12 +6,13 @@ Read the [background](./background.md) for additional context as to why I wrote 
 
 See [here](../install.md#script) for instructions on installing.
 
-| Program Setting   | Type    | Description                                                                                    | Example                          |
-|-------------------|---------|------------------------------------------------------------------------------------------------|----------------------------------|
-| targetFileID      | String  | The ID of the Google Sheets file that contains the target spreadsheet. ([How to](https://developers.google.com/sheets/api/guides/concepts#spreadsheet_id))            | R9l98mzhXX6eMjXlIgyPCuc8qW1OIfzo |
-| targetSheetName   | String  | The name of the target spreadsheet within the chosen file.                                     | Running Sheet                    |
-| ignoreHeader      | Boolean | If this is true, the first row of the sheet will be ignored.                                   | true                             |
-| displayCellCounts | Boolean | If this is true, the before and after cell counts will be displayed when cleaning is finished. | true                             |
+| Program Setting | Type | Description | Example |
+|---|---|---|---|
+| targetFileID | String | The ID of the Google Sheets file that contains the target spreadsheet. ([How to](https://developers.google.com/sheets/api/guides/concepts#spreadsheet_id)) | R9l98mzhXX6eMjXlIgyPCuc8qW1OIfzo |
+| targetSheetName | String | The name of the target spreadsheet within the chosen file. | Running Sheet |
+| ignoreHeader | Boolean | If this is true, the first row of the sheet will be ignored. | true |
+| displayCellCounts | Boolean | If this is true, the before and after cell counts will be displayed when cleaning is finished. | true |
+
 
 ---
 
