@@ -1,44 +1,17 @@
 # Changelog
 
-**./checkpoint-resume/readme.md**
-* Added blank line after heading.
-* Changed "dealing with" --> "having to deal with"
-* Simplified page link formatting.
+**./clean-spreadsheet/readme.md**
+* Added blank line after main heading.
+* Removed "as if it is a header." from 'ignoreHeader' setting value.
 
 ---
 
-**./checkpoint-resume/pages/background.md**
-* Changed text:
-	* "taken aback" --> "taken aback when I showed him"
-	* "taking some time to think it over" --> "having some quiet time to think about it"
-	* "around this limit" --> "around the limit"
-	* "submission index would be written" --> "submission index would then be written"
-	* "saved index can be read" --> "saved index is read"
-	* "submission loop [...] left off" --> "submission loop [...] left off previously"
-	* "as of writing now" --> "overall"
-	* "This should [...] core loop." --> "This should allow [...] the loop."
-	* "put in charge of" --> "asked to implement"
-	* "In this case, a script" --> "A script"
-	* "not what the design intent was" --> "not what Google Drive was designed for"
-	* "optimize scripts for runtime" --> "optimize scripts for time"
-	* "I cannot cite anything specific but the" --> "The"
-	* "I feel [...] time over form" --> "I feel [...] better use of the time limit"
-	* "no matter how you choose to write it" --> "no matter how you write it"
-	* "It isn't a question of" --> "This isn't a question"
-	* "I believe my script" --> "I believe the script that I wrote"
-* Simplified page link formatting.
-
----
-
-**./checkpoint-resume/pages/scenario.md**
-* Changed text:
-	* "full and complete project" --> "full project"
-	* "demonstrate what I have learned" --> "demonstrate the theory behind it"
-	* "Everything is done through 'code.js'" --> "Everything is done using the 'code.js' file."
-	* "Within the spreadsheet" --> "Inside the spreadsheet"
-	* "Leave 'Checkpoint' [...] script." --> "Leave 'Checkpoint' [...] used by the script."
-* Added blank lines after:
-	* "The chosen spreadsheet file uses two sheets:"
-	* 'Getting Started' heading.
-* Simplified page link formatting.
-* Minimized table markdown code.
+**./clean-spreadsheet/background.md**
+* Text changes:
+	* "one of the users" --> "one of the admins"
+	* "caused by the cell limit being reached" --> "caused by reaching the total cell limit"
+	* "did have hard limits" --> "had hard limits"
+	* "clear empty rows when no longer needed" --> "clear rows when no longer needed"
+	* "cell bloat left behind." --> "amount of cells left behind."
+	* "2786 cells and a 79.6% overall reduction." --> "2786 cells. (79.6% reduction)"
+* Rewrote the example sheet rows as bullet points.
