@@ -8,7 +8,6 @@ This is a demo script that sends a prepared E-Mail message to multiple given add
 
 When I was working at Response, I was in charge of several different system components that automatically sent out E-Mails to different staff members. This could be when submitting a form, or when certain actions in a spreadsheet are performed. Since there are no easy or conventional ways to share scripts between different projects, I eventually had many different copies of the code responsible for sending E-Mails. This is not inherently bad as it is mostly a [call to a service](https://developers.google.com/apps-script/reference/gmail/gmail-app#sendemailrecipient,-subject,-body,-options). However, the code for writing the E-Mail itself was always different and tailored to the use case. Looking back on it now, I decided to write a script that demonstrates sending an E-Mail for future reference.
 
----
 
 ### Getting Started
 
@@ -16,7 +15,6 @@ To install this script, refer to these [instructions](../install.md#script).
 
 After the script file has been saved, choose the `runSendMail` function in order to execute the script. The `settingsObject` variable contains the script's settings, as outlined in the table below.
 
----
 
 ### Settings
 
