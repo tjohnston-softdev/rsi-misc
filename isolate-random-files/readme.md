@@ -1,14 +1,12 @@
 ## Isolate Random Files
 
-This script takes randomly chosen files of matching types from an input folder and copies them to an output folder.
+This script randomly chooses files of matching types from an input folder and copies them to an output folder.
 
 ---
 
 ### Background
 
 I wrote the original version of this script during the 26 July 2017. I was asked to compile a small selection of photos from a collection stored on Response's Google Drive. My boss and the upper-management staff were due to attend an industry expo that evening and needed pictures to accompany their speeches. Given a folder of ~950 different photos, I did not have the necessary time or energy to hand-pick a good selection so I simply wrote a script to choose pictures at random and go from there.
-
-At the start of 2021, I rewrote the script for public release.
 
 
 ### Getting Started

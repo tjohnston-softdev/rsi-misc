@@ -1,6 +1,7 @@
 # Changelog
 
-**./doc-to-pdf/readme.md**
-* Re-wrote destination folder description.
-	* Before: "[...] PDF, with an optional destination folder."
-	* After: "[...] PDF. It can also optionally place it in a particular destination folder."
+**./isolate-random-files/readme.md**
+* Revised first sentence.
+	* Before: "This script takes randomly chosen files [...]"
+	* After: "This script randomly chooses files [...]"
+* Removed "At the start of [...] release."
