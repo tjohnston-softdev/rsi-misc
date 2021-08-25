@@ -1,6 +1,6 @@
 ## Document to PDF
 
-This script takes an existing Google Docs file and converts it into a PDF, with an optional destination folder.
+This script takes an existing Google Docs file and converts it into a PDF. It can also optionally place it in a particular destination folder.
 
 ---
 
