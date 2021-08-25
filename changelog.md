@@ -1,4 +1,3 @@
 # Changelog
 
-**./send-mail/readme.md**
-* Removed horizontal rules from 'Background' onwards.
+August 2021 format revision complete.
