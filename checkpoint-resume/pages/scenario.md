@@ -13,8 +13,8 @@ The chosen spreadsheet file uses two sheets:
 
 #### Getting Started
 
-1. Paste 'code.js' into a stand-alone script file. The instructions for doing so are [here](../../install.md#script)
-2. Then, create or open a Google Sheets file. No script will be attached to the spreadsheet. Everything is done using the 'code.js' file.
+1. Paste `code.js` into a stand-alone script file. The instructions for doing so are [here](../../install.md#script)
+2. Then, create or open a Google Sheets file. No script will be attached to the spreadsheet. Everything is done using the `code.js` file.
 3. Inside the spreadsheet, create two sheets 'Data' and 'Checkpoint'.
 4. Insert some data into the 'Data' sheet. It does not matter how much but there should be a decent amount of cells.
 5. Leave 'Checkpoint' empty. It is used by the script.
